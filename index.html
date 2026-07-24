@@ -151,6 +151,11 @@
         </div>
     </div>
 
+    <script type="module">
+        // Initialize Vercel Speed Insights
+        import { injectSpeedInsights } from './node_modules/@vercel/speed-insights/dist/index.mjs';
+        injectSpeedInsights();
+    </script>
     <script src="scrpit.js"></script>
 </body>
 </html>

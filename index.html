@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Zayka | Premium Restaurant Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="navbar">
+        <a href="#" class="logo"> Zayka-Vibe </a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn openModalTrigger">Reserve Table</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Culinary Excellence Redefined</h1>
+            <p>Experience world-class dining crafted with seasonal ingredients and passion right in the heart of the city.</p>
+            <button class="btn openModalTrigger">Book Your Experience</button>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="about" class="section-padding">
+        <div class="offer-card">
+            <h2 class="section-title" style="margin-bottom: 1rem;">Exclusive Weekend Tasting Menu</h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Indulge in a 7-course chef's special menu with complimentary wine pairing.</p>
+            <h3 style="color: var(--white); font-size: 1.5rem; margin-bottom: 1rem;">Use VIP Code: ZAYKA2026</h3>
+            <button class="btn openModalTrigger">Claim Offer & Reserve</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section-padding" style="background-color: var(--bg-card);">
+        <h2 class="section-title">Our Signature Dishes</h2>
+        <div class="grid-3">
+            <div class="menu-item">
+                <div class="menu-header">
+                    <span class="menu-name">Truffle & Gold Risotto</span>
+                    <span class="price">₹1,200</span>
+                </div>
+                <p class="menu-desc">Arborio rice, black truffle shavings, aged parmesan, and 24k gold leaf.</p>
+            </div>
+            <div class="menu-item">
+                <div class="menu-header">
+                    <span class="menu-name">Wagyu Beef Filet</span>
+                    <span class="price">₹2,500</span>
+                </div>
+                <p class="menu-desc">A5 Japanese Wagyu, smoked asparagus puree, and red wine demi-glace.</p>
+            </div>
+            <div class="menu-item">
+                <div class="menu-header">
+                    <span class="menu-name">Saffron Sea Bass</span>
+                    <span class="price">₹1,500</span>
+                </div>
+                <p class="menu-desc">Pan-seared Chilean sea bass, saffron infused beurre blanc, and microgreens.</p>
+            </div>
+            <div class="menu-item">
+                <div class="menu-header">
+                    <span class="menu-name"> Curd Samosa</span>
+                    <span class="price">₹149</span>
+                </div>
+                <p class="menu-desc">Curd Samosa Chaat, Indian vegetarian snacks served with tamarind chutneys</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding">
+        <h2 class="section-title">The Zayka Experience</h2>
+        <div class="grid-3">
+            <img src="https://images.unsplash.com/photo-1676471932681-45fa972d848a?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fine Dining Plate" class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Restaurant Interior" class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Premium Steak" class="gallery-img">
+            <img src="https://media.istockphoto.com/id/1398144183/photo/curd-samosa-chaat.webp?a=1&b=1&s=612x612&w=0&k=20&c=fMqT8K-OoK_zkfa78QkfKAw6Kl2W-bjt2Iodik46vbc=" alt=" Curd Samosa" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="contact" class="section-padding" style="background-color: var(--bg-card);">
+        <h2 class="section-title">Find Us</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Near V-Mart Karwi, Chitrakoot District, 210204 <br>Open Daily: 5:00 PM - 11:30 PM</p>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14438.56910548523!2d80.91030025424878!3d25.215283506349465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3984af43e47016db%3A0xfd6b7125986ef140!2sChitrakoot%20Dham%2C%20Uttar%20Pradesh%20210205!5e0!3m2!1sen!2sin!4v1784862736059!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Zayka Fine Dining. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Reservation Popup Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-card">
+            <button class="close-btn" id="closeModalBtn">&times;</button>
+            
+            <div id="formView">
+                <h2>Reserve a Table</h2>
+                <p>Please fill in the details below to secure your booking.</p>
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="guestName">Full Name</label>
+                        <input type="text" id="guestName" class="form-control" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guestDate">Date</label>
+                            <input type="date" id="guestDate" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guestTime">Time</label>
+                            <input type="time" id="guestTime" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guestCount">Number of Guests</label>
+                        <select id="guestCount" class="form-control" required>
+                            <option value="2 Guests">2 Guests</option>
+                            <option value="3 Guests">3 Guests</option>
+                            <option value="4 Guests">4 Guests</option>
+                            <option value="5+ Guests">5+ Guests</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Confirm Reservation</button>
+                </form>
+            </div>
+
+            <div class="confirmation-view" id="confirmationView">
+                <div class="check-icon">&#10003;</div>
+                <h2>Reservation Confirmed!</h2>
+                <p>We look forward to hosting you at Zayka.</p>
+                <div class="summary-box">
+                    <div class="summary-item"><span class="summary-label">Name:</span><span id="summaryName">-</span></div>
+                    <div class="summary-item"><span class="summary-label">Date & Time:</span><span id="summaryDateTime">-</span></div>
+                    <div class="summary-item"><span class="summary-label">Party Size:</span><span id="summaryGuests">-</span></div>
+                </div>
+                <button class="btn btn-submit" id="doneBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scrpit.js"></script>
+</body>
+</html>

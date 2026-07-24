@@ -15,6 +15,11 @@ A modern and fully responsive landing page designed for fine-dining restaurants.
 - **CSS3:** Flexbox, CSS Grid, Custom Variables, and Keyframe Animations.
 - **Vanilla JavaScript:** DOM manipulation, form handling, and event listeners (No external libraries used).
 
+## 🚀 How to Use / Run Locally
+1. Clone this repository or download the ZIP file.
+2. Extract the files to your local machine.
+3. Simply double-click the `index.html` file to open it in any modern web browser.
+*(No server or build tools required!)*
  
 ## 🤝 Contributing
 This is a personal portfolio project. However, feedback, suggestions, and pull requests are always welcome!

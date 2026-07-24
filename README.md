@@ -4,6 +4,9 @@
  
 A modern and fully responsive landing page designed for fine-dining restaurants. This project features a sophisticated dark theme with gold accents and an interactive table reservation modal, perfect for showcasing front-end development skills.
 
+## 📸 Preview
+<img width="1862" height="966" alt="Screenshot 2026-07-24 093218" src="https://github.com/user-attachments/assets/e9b22250-d736-4f17-83c2-04fab3483b03" />
+
 ## 🌟 Features
 - **Premium Dark Theme:** Elegant UI with gold accents tailored for luxury dining.
 - **Fully Responsive:** Seamlessly adapts to desktops, tablets, and mobile devices.
